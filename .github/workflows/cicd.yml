@@ -4,7 +4,7 @@ jobs:
   cicd:
     runs-on: ubuntu-latest
     permissions: 
-      contents: read, 
+      contents: read
       packages: write
       id-token: write
     steps:
